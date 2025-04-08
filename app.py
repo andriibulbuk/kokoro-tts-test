@@ -124,8 +124,6 @@ For each synthesis run, two core metrics are recorded:
 The **Speed Factor**, which indicates how many seconds of audio are produced per second of generation time, is calculated using the formula:
 """)
 
-st.markdown("Time is calculated using the following formula:")
-
 st.latex(r"""
 \text{Speed Factor} = \frac{\text{Audio Duration (sec)}}{\text{Total Generation Time (sec)}}
 """)
@@ -145,8 +143,10 @@ The system records the time taken to produce the first audio chunk, referred to 
   The model supports only 24 kHz, 16-bit audio.
 
 ### Summary
-While the cumulative audio duration may span up to around 1 minute 52 seconds in total, the generation process is extremely efficient—producing audio 30× to 50× faster than real time with an impressively low average latency of approximately 0.2009 seconds. The main trade-off is the high GPU utilization per request, which must be considered when planning scalable deployments.
+While the cumulative audio duration in testing reached up to 1 minute and 52 seconds, the Kokoro TTS model proved to be extremely efficient, generating audio 30× to 50× faster than real time with a low average latency of just 0.2009 seconds.
 
-Overall, the Kokoro TTS model delivers rapid, high-quality speech synthesis with excellent responsiveness, making it a powerful tool for TTS applications, albeit with significant GPU resource requirements.
+Each request consumes approximately 1.3 GB of GPU memory, which is actually quite reasonable—allowing a high-end GPU like the NVIDIA A6000 to handle up to 35 concurrent requests. This makes the model not only fast and high-quality but also surprisingly scalable.
+
+Overall, Kokoro delivers rapid, high-quality speech synthesis with excellent responsiveness, all while maintaining a balanced and efficient use of GPU resources—making it a strong choice for real-world TTS applications.
     """
 )
