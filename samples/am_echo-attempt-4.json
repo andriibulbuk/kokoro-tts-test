@@ -1,0 +1,18 @@
+{
+    "input_text": "Greetings, I\u2019m your interactive AI helper ready to chat with you. I can offer guidance on various topics, from practical advice to fun facts. Every interaction is an opportunity for us to learn and improve. Please feel free to ask questions or just engage in conversation. I\u2019m here to ensure you have a smooth and pleasant experience.",
+    "voice": "am_echo",
+    "attempt_number": 4,
+    "total_chunks": 1,
+    "first_chunk_latency_sec": 0.1592894540008274,
+    "last_chunk_latency_sec": 0.1592894540008274,
+    "average_chunk_interval_sec": 0,
+    "total_generation_time_sec": 0.18650624500151025,
+    "audio_duration_sec": 9.3375,
+    "gpu_utilization": {
+        "gpu_utilization_percent": 52.0,
+        "memory_utilization_percent": 25.0,
+        "memory_total_mb": 49140.0,
+        "memory_used_mb": 1964.0,
+        "memory_free_mb": 46588.0
+    }
+}

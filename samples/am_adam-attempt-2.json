@@ -1,0 +1,18 @@
+{
+    "input_text": "Hi there, I\u2019m your virtual assistant designed to make your day easier. I can help with scheduling, information lookup, and even offer some friendly advice. Don\u2019t hesitate to share your thoughts or questions. I\u2019m here to support you with accurate and timely responses. Together, we can solve any challenge you face.",
+    "voice": "am_adam",
+    "attempt_number": 2,
+    "total_chunks": 1,
+    "first_chunk_latency_sec": 0.15557963500032201,
+    "last_chunk_latency_sec": 0.15557963500032201,
+    "average_chunk_interval_sec": 0,
+    "total_generation_time_sec": 0.18329046299913898,
+    "audio_duration_sec": 8.9,
+    "gpu_utilization": {
+        "gpu_utilization_percent": 73.0,
+        "memory_utilization_percent": 66.0,
+        "memory_total_mb": 49140.0,
+        "memory_used_mb": 1622.0,
+        "memory_free_mb": 46930.0
+    }
+}
